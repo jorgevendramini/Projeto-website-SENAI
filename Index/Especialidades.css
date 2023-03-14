@@ -1,173 +1,191 @@
 body{
-     background-color: white;
-    
-     
-     }
-     h1{
-          text-align: center;
-          align-items: center;
-          font-size:40px;
-          margin: -4.33%;
-          color: white;
-      
-      }
-     #line1{
-          margin-top: 160px;
-          width: 95%;
-          margin-left: 2em;
-          border-top: 1px solid black;
-          align-items: center;
-          margin-top: 2%;
-        
-        }
-        
-    
-         
- 
-        .img-logo img{
-          position: relative;
-          width: 150px;
-          height: 150px;
-          top: 10px;
-          left: 50px;
-      }
-      .imagem{
-        width: 180px;
- 
-        
-        
-      }   
- 
-       .strong-informacoes-clinica{
-        font-weight: 600;
-      }
-      
- .imagem1{
+    background-color: white;
+    background-image: url(./img/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1300px;
+    overflow-y: hdden;
+}
+
+.back-img{
+    position: absolute;
+    width: 1100px;
+    height: auto;
+    left: 160px;
+    top: 100px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logos de medicina e da clinica */
+.logo{
+    position: absolute;
+    display: inline-flex;
+}
+
+/* informações header */
+.strong-informacoes-clinica{
+    font-weight: 600;
+}
+
+.informacoes{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    left: 450px;
+    top: 75px;
+    text-align: left;
+}
+
+.informacoes-fale-conosco{
+    position: relative;
+    inline-size: 150px;
+    left: -50px;
+}
+
+.informacoes-onde-estamos{
+    inline-size: 250px;
+    width: 15em;
+}
+
+.informacoes-horarios{
+    position: relative;
+    inline-size: 200px;
+    right: -30px;
+}
+
+/* Social Midia */
+.social{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* linha separadora do header e da nav*/
+#line1{
+    margin-top: 160px;
+    width: 95%;
+    margin-left: 2em;
+    border-top: 1px solid black;
+}
+
+
+
+
+h1{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: -40px;
+    color: white;
+}
+
+
+.img-logo img{
+    position: relative;
     width: 150px;
- }
+    height: 150px;
+    top: 10px;
+    left: 50px;
+}
+
+.imagem{
+    width: 180px;
+}
+      
+.imagem1{
+    width: 150px;
+}
  
- .imagem2{
+.imagem2{
     width:130px ;
     margin-left:-10%;
- }
- .imagem3{
+}
+
+.imagem3{
     width:220px ;
- }
- .imagem4{
+}
+.imagem4{
     width:220px ;
- }
- .imagem5{
+}
+
+.imagem5{
     width:150px ;
     margin-top: 15%;
- }
+}
+
  
+.center{
+    margin: 5px;
+    padding: 10px;
+    text-align:center;
+    font-size: 1em;
+    align-items: center;
+}
  
+.container{
+    display: flex;
+    max-width: 930px;
+    max-height: 400px;
+    margin: 0 auto;     
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 25px;
+}      
  
- 
-      .informacoes{
-          position: absolute;
-          display: flex;
-          justify-content: space-between;
-          font-size: large;
-          left: 800px;
-          top: 50px;
-          text-align: left;
-      }
-      
-      .informacoes-fale-conosco{
-          position: relative;
-          inline-size: 150px;
-          left: -50px;
-      }
-      
-      .informacoes-onde-estamos{
-          inline-size: 250px;
-          width: 15em;
-      }
-      
-      .informacoes-horarios{
-          position: relative;
-          inline-size: 200px;
-          right: -30px;
-      }
-      
-      /* Social Midia */
-      .social{
-          position: absolute;
-          top: 15px;
-          right: 20px;
-      }
-   
-     
- 
-     .center{margin: 5px;
-     padding: 10px;
-     text-align:center;
-     font-size: 1em;
-     align-items: center;
-    
-    }
- 
-    .container{
-            max-width: 930px;
-            margin: 0 auto;     
-            flex-wrap: wrap;
-            justify-content: space-around;
-            position: relative;
-            margin-top: 2%;
-            background-image: url(Mulher\ e\ doutora.png);
-           
-        
-        }    
- 
-        .flexivel{
-         display: flex;
- }    
- 
-       .final{
-       text-align: center;
-        font-size: 20px;
-     
-    
+.final{
+    text-align: center;
+    font-size: 20px;
  }
  
  
  #line2{
-     margin-top: 90px;
-     width: 95%;
-     margin-left: 1em;
-     border-top: 1px solid black;
-   
- }
- nav .buttons li:hover{
-     background-color: #3b7197;
-     cursor: pointer;
- }
- nav{
-     position: relative;
-     width: 1000px;
-     height: 50px;
-     border: 5px solid #3565ad;
-     border-radius: 50px;
-     background-color: #3565ad;
-     left: 450px;
-     top: 25px;
-     }
-     nav .buttons li{
-          display: inline-block;
-          margin-top: -50px;
-          width: 50%;
-          padding: 2px;
-          width: 150px;
-          text-align: center;
-          border: 5px solid #234d8d;
-          border-radius: 20px;
-          background-color: #234d8d;
-          cursor: pointer;
-          transition: 0.1s linear;
-      }
-      nav .buttons a{
-        text-decoration: none;
-        color: #fff;
-        font-size: 20px;
-      }
+    margin-top: 90px;
+    width: 95%;
+    margin-left: 1em;
+    border-top: 1px solid black;  
+}
+
+nav .buttons li:hover{
+    background-color: #3b7197;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    width: 800px;
+    height: 50px;
+    border: 5px solid #3565ad;
+    border-radius: 50px;
+    background-color: #3565ad;
+    left: 300px;
+    top: 25px;
+}
+
+nav .buttons li{
+    display: inline-block;
+    margin-top: -50px;
+    width: 50%;
+    padding: 2px;
+    width: 150px;
+    text-align: center;
+    border: 5px solid #234d8d;
+    border-radius: 20px;
+    background-color: #234d8d;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+     
+nav .buttons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
